@@ -1,0 +1,1 @@
+export const API=process.env.NEXT_PUBLIC_API_URL||"http://localhost:8000";export async function api(p:string,o:RequestInit={}){const r=await fetch(API+p,{...o,credentials:"include",headers:{"Content-Type":"application/json",...(o.headers||{})},cache:"no-store"});if(!r.ok){let d:any={};try{d=await r.json()}catch{};throw Error(d.detail||"Request failed")}return r.json()}
