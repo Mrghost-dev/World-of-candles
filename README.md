@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAVIN TRADING PRO — ADVANCED
 
 This is the upgraded version of the earlier **Ravin Trading Pro Full Stack** project.
@@ -31,3 +32,7 @@ REAL_TRADING_ENABLED=false
 ```
 
 Never put API secrets in Git. Never request/store an M-Pesa PIN.
+=======
+# World-of-candles
+Welcome to my world of trading i have been trading and coding for almost 4+ years and this is what i managed to pulled up with though aint finished but i still believe this will be my breakthrough to this cruel world now lets search for userd to start generating liquidation 😎😎
+>>>>>>> 20f7ccdc793565ec0a10e3edabe2b975bfad72c8
